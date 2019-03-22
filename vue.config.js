@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
-    public: "http://0.0.0.0"
+    disableHostCheck: true,
   },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
