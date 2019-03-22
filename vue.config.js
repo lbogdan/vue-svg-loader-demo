@@ -1,4 +1,7 @@
 module.exports = {
+  devServer: {
+    public: "http://0.0.0.0"
+  },
   chainWebpack: config => {
     const svgRule = config.module.rule('svg');
 
